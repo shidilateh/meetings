@@ -1,46 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Laravel</title>
+<head>
+    <title>Laravel</title>
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        
 
             .title {
-                font-size: 96px;
+                font-size: 40px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5 (Sistem Minit Mesyuarat)</div>
+                <div class="title">(Sistem Minit Mesyuarat)</div>
             </div>
         </div>
     </body>
-</html>
+    </html>
