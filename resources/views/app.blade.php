@@ -20,9 +20,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="content">
-                <div class="title">(Sistem Minit Mesyuarat)</div>
-            </div>
+            @yield('content')
         </div>
     </body>
     </html>
