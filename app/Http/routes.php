@@ -11,13 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome.index');
-});
+Route::get('/', array(
+	'as' => 'home',
+	'uses' => 'HomeController@index'
+));
 
-Route::any('store', function () {
-    return "jajajjaja";
-});
+Route::any('store',array(
+	'as' => 'user.create',
+	'uses' => 'UserController@create'
+));
 
 Route::any('view', function () {
     return view('welcome');

@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <div class="header">
