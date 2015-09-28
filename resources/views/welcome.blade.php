@@ -23,7 +23,7 @@
         <div class="container">
             <div class="content">
 
-                <div class="title">(Sistem Minit Mesyuarat)</div>
+                <div class="title">(Sistem Minit Mesyuarat) Developer</div>
             </div>
         </div>
     </body>
