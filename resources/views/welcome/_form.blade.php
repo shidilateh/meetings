@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="content">
-	{!! Form::open(array('url' => 'my/route')) !!}
+	{!! Form::open(array('route' => 'my/route')) !!}
 	<div class="form-group">	
 		{!! Form::label('description', 'Description') !!}
 		{!! Form::text('description', 'Best field ever!',array('class' => 'form-control')) !!}
