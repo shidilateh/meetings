@@ -2,11 +2,10 @@
 
 @section('content')
 <div class="content">
-	{{$data}}
-	{!! Form::open(array('url' => 'my/route')) !!}
+	{!! Form::open(array('route' => 'my/route')) !!}
 	<div class="form-group">	
 		{!! Form::label('description', 'Description') !!}
-		{!! Form::text('description', null,array('class' => 'form-control')) !!}
+		{!! Form::text('description', 'Best field ever!',array('class' => 'form-control')) !!}
 	</div>
 	{!! Form::close()!!}
 </div>

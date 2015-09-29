@@ -4,7 +4,7 @@
 	font-weight: 100;
 	src: local('Lato Hairline'), local('Lato-Hairline'), url(font.woff) format('woff');
 }
-.header,.menu,.content,.footer{
+.header,.menu,.body,.footer{
 	padding:0;
 	margin:0;
 }
@@ -17,4 +17,16 @@
 	font-size: 40px;
 	font-weight: bold;
 	color: #454746;
+}
+.menu {
+    min-height:50px;
+    border-bottom:2px solid rgba(0,0,0,0.1);
+}
+.body {
+    min-height:500px;
+}
+.footer {
+    padding:10px 0 5px;
+    min-height:50px;
+    border-top:2px solid rgba(0,0,0,0.1);
 }
