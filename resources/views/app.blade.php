@@ -24,7 +24,7 @@
             @yield('menu')
         </div>
     </div>
-    <div class="content">
+    <div class="body">
         <div class="container">
             @yield('content')
         </div>
@@ -32,6 +32,8 @@
     <div class="footer">
         <div class="container">
             @yield('footer')
+
+            <div class="footer-text">E-Meeting System@Corporation</div>
         </div>
     </div>
 
