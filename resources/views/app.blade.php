@@ -23,7 +23,7 @@
     </div>
     <div class="menu">
         <div class="container">
-            @yield('menu')
+            @include('nav')
         </div>
     </div>
     <div class="body">
