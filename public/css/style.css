@@ -48,9 +48,28 @@
     border-right:1px solid #ccc;
     padding:10px 10px;
     display:inline-block;
-
+    box-shadow: 1px 1px 2px red;
 }
 .menu-btm ul li:last-child{
     border:none;
 
+}
+.menu-btm ul li:first-child{
+    
+    box-shadow:none;
+
+}
+.menu-btm ul li a{
+	display:block;
+	text-align:center;
+}
+.menu-btm ul li a:hover{
+	text-decoration:none;
+	transition:0.3s;
+	color:white;
+}
+
+.menu-btm ul li:hover{
+	background:aquamarine;
+	transition:0.3s;
 }
