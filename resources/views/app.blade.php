@@ -17,7 +17,7 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="title">E-Meeting</div>
+            <div class="title">E-System</div>
             @yield('header')
         </div>
     </div>
@@ -35,7 +35,7 @@
         <div class="container">
             @yield('footer')
 
-            <div class="footer-text">E-Meeting System@Corporation</div>
+            <div class="footer-text">E-System@Corporation</div>
         </div>
     </div>
 
